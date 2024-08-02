@@ -1,9 +1,8 @@
-
-x1 = float(input("Enter x1"))
-y1 = float(input("Enter y1"))
-x2 = float(input("Enter x2"))
-y2 = float(input("Enter y2"))
+x1 = int(input("Enter x1"))
+y1 = int(input("Enter y1"))
+x2 = int(input("Enter x2"))
+y2 = int(input("Enter y2"))
 
 euclidianD = (x2-x1)**2 + (y2-11)**2
 
-print("The euclidian disatance between "+point1+" and "+point2+" is "+euclidianD)
+print("The distance between these points is", euclidianD)
